@@ -26,6 +26,10 @@ $　rails g react:install
 
 これらのコマンドを実行することによりreact-on-railsでアプリを作ることができる.
 
+次に,React Routerでバージョンによるエラーが発生してしまった場合は,react-domのバージョンを下げることをお勧めする.
+terminal: npm install react-router-dom@5
+
+
 参考文献
 URL:
 https://qiita.com/k-penguin-sato/items/e3cc04f787cf3254cfae
