@@ -27,6 +27,7 @@ $　rails g react:install
 これらのコマンドを実行することによりreact-on-railsでアプリを作ることができる.
 
 参考文献
-URL:「https://qiita.com/k-penguin-sato/items/e3cc04f787cf3254cfae」
+URL:
+https://qiita.com/k-penguin-sato/items/e3cc04f787cf3254cfae
 タイトル:ReactをRailsと共に使う方法
 
