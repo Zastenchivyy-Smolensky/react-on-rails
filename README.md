@@ -1,24 +1,28 @@
-# README
+このアプリはreact-on-railsで作ったアプリである！
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+command line
+ここではreact-on-railsのプロジェクトを作成するためのコマンドを記載するランである.
+1.
+terminal: react new react-on-rails
+(railsでアプリを作るコマンドである)
+2.プロジェクトができば,gemfileに移り,以下のコードをgemfileに記載する.
+gem "react-rails"
+gem "webpacker"
 
-* Ruby version
+3.bundle installでインストールする
+terminal:　bundle install
 
-* System dependencies
+4.webpackerをインストールする 
+terminal: rails webpacker:install
+terminal: rails webpacker:install:react
 
-* Configuration
+5.reactをインストールする.
+$rails g react:install
 
-* Database creation
+これらのコマンドを実行することによりreact-on-railsでアプリを作ることができる.
 
-* Database initialization
+参考文献
+URL:「https://qiita.com/k-penguin-sato/items/e3cc04f787cf3254cfae」
+タイトル:ReactをRailsと共に使う方法
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
