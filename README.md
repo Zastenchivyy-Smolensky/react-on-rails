@@ -4,7 +4,7 @@
 command line
 ここではreact-on-railsのプロジェクトを作成するためのコマンドを記載するランである.
 1.
-terminal: react new react-on-rails
+terminal: rails new react-on-rails
 (railsでアプリを作るコマンドである)
 2.プロジェクトができば,gemfileに移り,以下のコードをgemfileに記載する.
 gemfile
